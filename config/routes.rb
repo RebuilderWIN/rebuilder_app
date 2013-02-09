@@ -1,4 +1,12 @@
 RebuilderApp::Application.routes.draw do
+  get "invoice_pages/invoice"
+
+  get "invoice_pages/customer"
+
+  get "invoice_pages/line_item"
+
+  get "invoice_pages/help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
